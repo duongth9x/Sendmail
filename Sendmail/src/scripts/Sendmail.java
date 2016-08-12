@@ -19,20 +19,23 @@ public class Sendmail {
 		driver.get("https://mail.google.com/");
 	}
 
-	@Test(priority = 0)
+	@Test()
 	public void Send_mail_successful() {
 		
 	 Gmailpage user = new Gmailpage(driver);
-			
-		 user.typetxtYourmail();
-		 user.clickbtnNext();
-		 user.typetxtPass();
-		 user.clickbtnSignin();
-		 user.clickbtnCreate();
-		 user.typetxtSendtomail();
-		 user.typetxtSubject();
-		 user.typetxtDescription();
-		 user.clickbtnSubmit();
+	 	//waitFor(3000);
+	 	//List<WebElement> originOptions = driver.findElement(By.id("ui-id-1")).findElements(By.tagName("li"));
+	 	//originOptions.get(0).click();	
+
+	 	user.typetxtYourmail();
+		user.clickbtnNext();
+		user.typetxtPass();
+		user.clickbtnSignin();
+		user.clickbtnCreate();
+		user.typetxtSendtomail();
+		user.typetxtSubject();
+		user.typetxtDescription();
+		user.clickbtnSubmit();
 		 
 	}
 

@@ -7,11 +7,11 @@ public class Sendmaildetail {
 	private String subject;
 	private String description;
 
-	public String getYourmail() {
+	public String getMymail() {
 		return yourmail;
 	}
 
-	public void setYourmail(String yourmail) {
+	public void setMymail(String yourmail) {
 		this.yourmail = yourmail;
 	}
 

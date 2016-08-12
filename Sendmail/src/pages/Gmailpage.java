@@ -41,8 +41,8 @@ public class Gmailpage {
 
 	}
 
-	
-	public void typetxtYourmail() {
+	public void typetxtYourmail(String yourmail) {
+		txtYourmail.clear();
 		txtYourmail.sendKeys("duongth9x@gmail.com");
 	}
 	
@@ -51,6 +51,7 @@ public class Gmailpage {
 	}
 	
 	public void typetxtPass() {
+		txtPass.clear();
 		txtPass.sendKeys("13021992@");
 	}
 	

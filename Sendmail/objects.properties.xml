@@ -1,0 +1,7 @@
+#Browser config
+browser = firefox
+chrome_path = E:/TestNG1/chromedriver.exe
+
+#Login
+Yourmail = duongth9x@gmail.com
+Password = 13021992@
